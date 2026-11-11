@@ -20,7 +20,7 @@ from pathlib import Path
 
 import requests
 
-API_URL = "https://codes-backend.wwmcodes.workers.dev/v1/codes"
+API_URL = "https://codes-backend-prod.wwmcodes.workers.dev/v1/codes"
 SITE = "https://codes.yar.gg/"
 STATE_FILE = Path("seen_codes.json")
 WEBHOOK = os.environ.get("DISCORD_WEBHOOK_URL", "")
